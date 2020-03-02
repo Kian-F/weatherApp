@@ -1,4 +1,5 @@
-import React, {Component} from React
+import React, {Component} from 'react';
+import axios from 'axios'
 
 class Weather extends Component{
     
@@ -10,6 +11,16 @@ class Weather extends Component{
         };
     }
 
+    componentDidMount =()=>{
+        const weatherURL = 'https://www.metaweather.com/api/location/search/?query=london';
+        // const weatherParams={
+        //     query: ''
+        // }
+        axios.get(weatherURL).then((result)=>{
+            console.log(result);
+            
+        })
+    }
     
 
     render(){
