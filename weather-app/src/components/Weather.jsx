@@ -45,10 +45,9 @@ const WeatherInfo = props => {
   } else {
     return (
       <div>
-        <h4>{props.data[0].title} </h4>
+        <Link to={`/weather/${props.data[0].woeid}`}>{props.data[0].title}</Link>
         <h4>Location Type: {props.data[0].location_type}</h4>
         {/* <a href={`https://www.metaweather.com/api/location/${props.data[0].woeid}`} target="_blank" rel='noopener noreferrer'>Latiude: { props.data[0].woeid}</a> */}
-        <Link to={`/weather/${props.data[0].woeid}`}>More Details</Link>
         <h4>Latitude Longitude: {props.data[0].latt_long}</h4>
       </div>
     );
