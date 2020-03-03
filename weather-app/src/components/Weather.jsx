@@ -12,7 +12,7 @@ class Weather extends Component {
         this.state = {
             city: '',
             weatherData: null,
-            woeid:''
+            
             
         };
         
@@ -59,8 +59,8 @@ const WeatherInfo = (props) =>{
             <h2>Title: {props.data[0].title} </h2>
             <h2>Location Type:{props.data[0].location_type}</h2>
             {/* <a href={`https://www.metaweather.com/api/location/${props.data[0].woeid}`} target="_blank" rel='noopener noreferrer'>Latiude: { props.data[0].woeid}</a> */}
-    <Link to={`/weather/${ props.data[0].woeid}`}>Details:{props.data[0].woeid}</Link>
-            <h2>latt_long: { props.data[0].latt_long }</h2>
+            <Link to={`/weather/${ props.data[0].woeid}`}>More Details</Link>
+            <h2>Latitude Longitude: { props.data[0].latt_long }</h2>
 
         </div>
     )
