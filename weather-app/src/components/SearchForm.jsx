@@ -6,10 +6,10 @@ class SearchForm extends Component {
     this.state = { query: " " };
   }
 
-  _handleInput(event) {
+  _handleInput=(event) =>{
     this.setState({ query: event.target.value });
   }
-  _handleSubmit(event){
+  _handleSubmit=(event)=>{
     event.preventDefault();
     this.props.onSubmit(this.state.query)
   }
@@ -18,7 +18,7 @@ class SearchForm extends Component {
             return (
               <form onSubmit={this._handleSubmit}>
                 <input type="search" onInput={this._handleInput} required placeholder="Sydney" />
-                <button type="submit">search</button>
+                <button type="submit">Search</button>
               </form>
             );
           }
