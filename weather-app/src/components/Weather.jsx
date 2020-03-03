@@ -41,6 +41,7 @@ class Weather extends Component {
 }
 
 const WeatherInfo = (props) =>{
+    
     //show the result if they are availeble
     if (props && props.data === null) {
         return '';
@@ -49,7 +50,7 @@ const WeatherInfo = (props) =>{
         <div>
             <h2>Title: {props.data[0].title} </h2>
             <h2>Location Type:{props.data[0].location_type}</h2>
-            <h2>Latitude: { props.data[0].woeid}</h2>
+            <a href="">Latitude: { props.data[0].woeid}</a>
             <h2>latt_long: { props.data[0].latt_long }</h2>
 
         </div>

@@ -1,5 +1,12 @@
+body{
+  margin: 0 auto;
+}
+
 .App {
   text-align: center;
+  margin: 0 auto;
+  background-image: url('https://images.pexels.com/photos/1486974/pexels-photo-1486974.jpeg?cs=srgb&dl=symmetrical-photography-of-clouds-covered-blue-sky-1486974.jpg&fm=jpg');
+
 }
 
 .App-logo {
@@ -35,4 +42,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container{
+  background-image: url('https://images.pexels.com/photos/1486974/pexels-photo-1486974.jpeg?cs=srgb&dl=symmetrical-photography-of-clouds-covered-blue-sky-1486974.jpg&fm=jpg');
 }
