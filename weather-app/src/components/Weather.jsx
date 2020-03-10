@@ -24,7 +24,7 @@ class Weather extends Component {
       // On failure we remove any old data and return to the starting value.
       this.setState({ weatherData: result.data });
     });
-  };
+  }
 
   render() {
     return (
@@ -34,15 +34,18 @@ class Weather extends Component {
         <WeatherInfo data={this.state.weatherData} />
         {/* <CityDetails dataFromParent={this.sate.woeid}/> */}
       </div>
-    );
+    )
+    
   }
+
+   
 }
 
 const WeatherInfo = props => {
   console.log(props);
   //show the result if they are availeble
-  if ((props && props.data === null) || "") {
-    return "";
+  if (props && props.data === null ) {
+    return " ";
   } else {
     return (
       <div>

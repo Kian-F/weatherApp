@@ -19,8 +19,8 @@ class CityDetails extends Component {
 
     axios.get(weatherURL + this.props.match.params.id).then(result => {
       console.log({ result });
-      const fiveDays = result.data;
-      console.log(fiveDays);
+    //   const fiveDays = result.data;
+    //   console.log(fiveDays);
       
 
       this.setState({ weatherDataDetails: result.data.consolidated_weather });
@@ -28,9 +28,7 @@ class CityDetails extends Component {
   };
 
   render() {
-    const newDate = new Date();
-    const weekday = this.state.weatherDataDetails
-      newDate.setTime(weekday)
+    
       
     return (
       <div>
@@ -40,7 +38,8 @@ class CityDetails extends Component {
           {this.state.weatherDataDetails.map((day, index) => (
             <div key={index}  className="col-auto">
               <div className="card bg-light">
-              <h3 className="card-title">{day.applicable_date}</h3>
+              <h3 className="card-title">{moment(day.applicable_date).format('dddd')}</h3>
+              <p className="text-muted">{moment(day.applicable_date).format("MMM Do YYYY")}</p>
                 {/* <i className={imageURL}></i> */}
                 <img
                 className="statusImg"
