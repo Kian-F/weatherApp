@@ -51,6 +51,14 @@ class CityDetails extends Component {
                     {" "}
                      {day.weather_state_name}
                   </p>
+                  <p className="card-text">
+                    {" "}
+                    Max: {day.max_temp.toFixed(0) + "°C"}
+                  </p>
+                  <p className="card-text">
+                    {" "}
+                    Min: {day.min_temp.toFixed(0) + "°C"}
+                  </p>
                   <button className="btn btn-dark btn-outline-light">
                     See Details
                   </button>
