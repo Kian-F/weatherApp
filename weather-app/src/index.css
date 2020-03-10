@@ -7,8 +7,17 @@
 body{
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 text-align: center;
-color: aliceblue;
+color: white
 }
+.card-title {
+  color:#5656a9;
+}
+.statusImg {
+  width: 40px;
+  height: 40px;
+  margin-left: 135px;
+}
+
 .homeBackg{
 
  background-image: url('./assets/background.jpeg');
@@ -32,11 +41,7 @@ main{
   width: 145px;
   display: flex; justify-content: center; 
 }
-.statusImg{
-  width: 40px;
-  height: 40px;
-  margin-left: 20px;
-}
+
 
 /* .cityDetails{
   background-image: url('./assets/sunny_wallpaper.jpg');
@@ -114,3 +119,4 @@ a{
 .Logo {
   background-image: url('./assets/cloud-element-weather-sunrise-sun-up-rise-512.png');
 }
+
