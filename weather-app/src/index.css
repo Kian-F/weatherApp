@@ -25,8 +25,11 @@ color: white
  background-position: bottom;
  
  height: 900px;
-
- 
+}
+.city{
+  background-image: url('./assets/sunny_wallpaper.jpg');
+  background-size: contain;
+  background-position: bottom;
 }
 main{
   min-height: 100vh;

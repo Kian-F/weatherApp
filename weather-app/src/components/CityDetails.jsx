@@ -31,7 +31,7 @@ class CityDetails extends Component {
     
       
     return (
-      <div>
+      <div className="city">
         {/* this is id: {this.props.match.params.id} */}
         {/* <WeatherInfo data={this.state.weatherDataDetails} /> */}
         <div className="row justify-content-center">

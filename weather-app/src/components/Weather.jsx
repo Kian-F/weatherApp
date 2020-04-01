@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import "../Card.css";
 import SearchForm from "./SearchForm";
-import CityDetails from "./CityDetails";
+
 
 class Weather extends Component {
   constructor(props) {
