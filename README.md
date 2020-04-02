@@ -3,6 +3,7 @@
 This is a simple weather app build in React and using https://www.metaweather.com/api/ Api 
 
 Axios is used to fetch the data from Api
+![](weather-app/src/assets/weatherApp.png)
 
 ### Dependencies
 
