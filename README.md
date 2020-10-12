@@ -3,6 +3,7 @@
 
 ## Table of Contents
 - Introduction
+- Screenshots
 - Instructions
 - Motivation
 - Technologies
@@ -13,6 +14,13 @@
 This app's development was a part of a job process and application. The app successfully implemented and meet all the requirements. Unfortunately the job cancelled due to COVID-19.
 
 #### [Live Site - hosted on Heroku](https://weather-simple--react.herokuapp.com/#/).
+
+## Screenshots
+
+#### Home
+![Home page](/src/assets/Home.JPG)
+#### 5 days Result
+![5 days result](/src/assets/Result.JPG)
 
 ## Instructions
 
