@@ -3,6 +3,8 @@
 
 ## Table of Contents
 - Introduction
+- Instructions
+- Motivation
 - Technologies
 - Key Features
 - Learnings
@@ -13,6 +15,12 @@
 This app's development was a part of a job process and application. The app successfully implemented and meet all the requirements. Unfortunately the job cancelled due to COVID-19.
 
 #### [Live Site - hosted on Heroku](https://weather-simple--react.herokuapp.com/#/).
+
+## Instructions
+
+- For the purpose of this coding test build a ReactJS application that allows users to search for locations, and then retrieve weather information about that location. One source of this information, for both a location search and related weather information, is the Meta weather API that is documented at https://www.metaweather.com/api/#locationsearch.
+
+- Note that CORS has not been enabled on the server side, if you are using Chrome please use extension like https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en for development only (may affect other sites).
 
 ## Motivation
 The following should be delivered as part of this test:
