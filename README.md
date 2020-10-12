@@ -6,8 +6,6 @@
 - Instructions
 - Motivation
 - Technologies
-- Key Features
-- Learnings
 - Further Development
 - Screenshots
 
@@ -26,13 +24,18 @@ This app's development was a part of a job process and application. The app succ
 The following should be delivered as part of this test:
 
 - A “home page” where the user can search by location name (e.g "San") via a search box. The search results after a search should be displayed as list. Each search result should display the title, location type, latitude and longitude of the location. Clicking on a location should open the details page described below
-
 - A “details page” which displays the location name, weather information, and anything else you may find interesting about that location
-
 - ReactJS must used to create the app
-
 - Use a state management library of your choice
-
 - The application must be responsive
-
 - Refrain from using any boilerplate other than create-react-app
+
+## Technologies
+- React
+- Bootstrap
+- Axios
+- react-router-dom
+- Meta weather API
+
+## Further Development
+- Create unit tests
